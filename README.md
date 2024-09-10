@@ -73,8 +73,8 @@ Set 5: (Rachel, Ross), (Joey, Chandler, Phoebe)
 ```
 
 ## Buddy Pairing Options<a name="Options"></a>
-'buddies.py' requires the following input file:
-* `[CSV]`: relative file path to the CSV file containing the members' closeness ratings. More specifically, the file should have comma separated values name1,name2,weight in each row representing the relationship between the members name1 and name2 with a weight (either `int` or `float `). This weight should be between the floats 0.0 to 10.0 (inclusive). This csv should complete enough information to represent all relationships from one member to all the other members, resulting in a complete graph (for n vertices, there should be n(n-1)/2 edges, which is equivalent to n(n-1)/2 rows in the csv). As an example, the graph with 6 members should have 6(6-1)/2 = 15 edges, and the graph with 5 members should have 5(5-1)/2 = 10 edges.
+`buddies.py` requires the following input file:
+* `[CSV]`: relative file path to the CSV file containing the members' closeness ratings. More specifically, the file should have comma separated values name1,name2,weight in each row representing the relationship between the members name1 and name2 with a weight (either `int` or `float `). This weight should be between 0.0 to 10.0 (inclusive). This CSV should complete enough information to represent all relationships from one member to all the other members, resulting in a complete graph (for n vertices, there should be n(n-1)/2 edges, which is equivalent to n(n-1)/2 rows in the csv). As an example, the graph with 6 members should have 6(6-1)/2 = 15 edges, and the graph with 5 members should have 5(5-1)/2 = 10 edges.
 
 Additional options include:
 * `-m`, `--show_matrix`: Show the adjacency matrix of the graph in the terminal output.

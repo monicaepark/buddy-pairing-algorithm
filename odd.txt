@@ -1,0 +1,10 @@
+Ross,Rachel,9
+Ross,Phoebe,3
+Ross,Joey,7
+Ross,Chandler,6
+Rachel,Phoebe,8
+Rachel,Joey,8
+Rachel,Chandler,6
+Phoebe,Joey,3
+Phoebe,Chandler,2
+Joey,Chandler,6
